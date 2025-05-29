@@ -20,6 +20,7 @@ else
   CONDITION="name = '$1'"
 fi
 
+#New Comment 02
 # Perform the query
 ELEMENT=$($PSQL "
   SELECT atomic_number, name, symbol, type, atomic_mass, melting_point_celsius, boiling_point_celsius 
